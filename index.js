@@ -1,0 +1,68 @@
+// console.log ("Hello, World!")
+// console.log(2+3)
+// console.log(10-2); 
+// console.log(2*3); 
+// console.log(10/5);
+// console.log(2**3);
+// console.log((2+3)+(10-2)+(2*3)+(10/5)+(2**3));
+
+// let, const
+
+// Типы данных в JS
+let num = 1 // number
+
+let str1 = "My name is ibragim" // string
+let str2 = 'My name is ibragim'
+let str3 = `My name is ibragim`
+console.log(str3);
+
+let bool1 = true // boolean
+let bool2 = false
+
+// undefined, null, object, symbol
+
+str3 = "My name is Khan"
+
+console.log(str3);
+
+let a1 = 1+4
+let a2 = 5-4
+let a3 = 4*1
+let a4 = 14/2
+let a5 = 5**2
+
+console.log(a1, a2, a3, a4, a5)
+
+let b1 = "hello"
+let b2 = "bye"
+let b3 = "My name is ibra"
+let b4 = "Good"
+let b5 = "BAD"
+
+console.log(b1, b2, b3, b4, b5);
+
+a1 = 3+1
+a2 = 4-4
+a3 = 4*2
+a4 = 10/5
+a5 = 2**3
+b1 = "hh"
+b2 = "bb"
+b3 = "mm"
+b4 = "gg"
+b5 = "aa"
+console.log(a1, a2, a3, a4, a5);
+console.log(b1, b2, b3, b4, b5);
+
+          // 0 1 2 3 4 5 6 
+// let nums = [ 1,2,3,4,5,6,7]
+          //  0   1  2   3
+// let names = ["adam","ali",":mo,alik"]
+// console.log(names)[1];
+let nameage1 = ["Maga", 22,"Apti", 31,"Adam", 19,"Andy", 5,"Doka", 55]
+
+console.log("Имя:",nameage1[0],",","Возраст:", nameage1[1]);
+console.log("Имя:",nameage1[2],",","Возраст:", nameage1[3]);
+console.log("Имя:",nameage1[4],",","Возраст:", nameage1[5]);
+console.log("Имя:",nameage1[6],",","Возраст:", nameage1[7]);
+console.log("Имя:",nameage1[8],",","Возраст:", nameage1[9]);
