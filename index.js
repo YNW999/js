@@ -54,9 +54,9 @@
 // console.log(a1, a2, a3, a4, a5);
 // console.log(b1, b2, b3, b4, b5);
 
-          // 0 1 2 3 4 5 6 
+// 0 1 2 3 4 5 6 
 // let nums = [ 1,2,3,4,5,6,7]
-          //  0   1  2   3
+//  0   1  2   3
 // let names = ["adam","ali",":mo,alik"]
 // console.log(names)[1];
 // let nameage1 = ["Maga", 22,"Apti", 31,"Adam", 19,"Andy", 5,"Doka", 55]
@@ -109,10 +109,76 @@
 // let srt = "slime life all the time"
 // let arr = [1, 2, 4, 5, 6, 7]
 // console.log(srt.length);
-console.log(3>5);
-console.log(3<5);
-console.log(3<=3);
-console.log(3>=2);
-console.log("ab"==="ab");
-console.log("ad"!=="ab");
-console.log("ad"==="ad");
+// console.log(3>5);
+// console.log(3<5);
+// console.log(3<=3);
+// console.log(3>=2);
+// console.log("ab"==="ab");
+// console.log("ad"!=="ab");
+// console.log("ad"==="ad");
+
+// let age = 10
+// let myName = "Lua"
+// let horror ="Ужас"
+// let actionmovies ="Боевик"
+// let cartoon ="Мультик"
+
+// if (age > 18) {console.log("Вам "+ age +"лет,можно смотреть " + horror +"жанр")
+//     }
+// else if (age > 12) {
+//     console.log("Вам "+ age +"лет,можно смотреть " + actionmovies +"жанр")
+//     } 
+//     else  console.log("Вам " + age + " лет ,можно смотреть " + cartoon +"жанр")
+
+
+//  let s = "Chechnya"   
+//  for (let i = 0;i < s.length; i++) {
+//     console.log(s[i])
+//  }       
+
+// for (let i = 21; i < 122; i += 2)
+//     console.log(i);
+
+// for (let b = 2; b <= 36; b++) {
+//     if (b % 2 === 0) {
+//         console.log(b);
+//     }
+
+// }
+
+// for (let c = 3; c <= 37; c++) {
+//     if (c % 2 === 1) {
+//         console.log(c);
+//     }
+
+// }
+// for (let d = 0; d < 100; d++)
+//     if (d % 2 === 0) {
+//         console.log(d);
+//     }
+// else(d % 2 === 1) {
+//     console.log(d);
+// }
+
+// let names = ["Adam", "Maga", "Nurik", "ibra"]
+
+// for (let i = 0; i < names.length; i++) {
+//     if (names[i] === "ibra") {
+//         console.log(names[i], "i won.");
+//         continue
+//     }
+
+//     if (i === names.length - 1) {
+//         if (names[i] !== "ibra") {
+//             console.log(names[i], "i lose.");
+//         }
+//     }
+// }
+let names = ["Adam", "Lee", "Movsar", "Kazbek", "Alibek"]
+for (let i = 0; i < names.length; i++) {
+    let currentName = names[i];
+    let firstLetter = currentName[0];
+    let lastLetter = currentName[currentName.length - 1]
+    let nameLenght = currentName.length;
+ console.log(currentName, firstLetter,lastLetter,nameLenght);
+}
