@@ -174,11 +174,56 @@
 //         }
 //     }
 // }
+// let names = ["Adam", "Lee", "Movsar", "Kazbek", "Alibek"]
+// for (let i = 0; i < names.length; i++) {
+//     let currentName = names[i];
+//     let firstLetter = currentName[0];
+//     let lastLetter = currentName[currentName.length - 1]
+//     let nameLenght = currentName.length;
+// //  console.log(currentName, firstLetter,lastLetter,nameLenght);
+// }
+// let names = ["Adam", "Lee", "Movsar", "Kazbek", "Alibek"]
+// // console.log(names[names.length-1]);
+// let alibek = names[names.length-1]
 let names = ["Adam", "Lee", "Movsar", "Kazbek", "Alibek"]
-for (let i = 0; i < names.length; i++) {
-    let currentName = names[i];
-    let firstLetter = currentName[0];
-    let lastLetter = currentName[currentName.length - 1]
-    let nameLenght = currentName.length;
- console.log(currentName, firstLetter,lastLetter,nameLenght);
-}
+// let upperCaseNames = []
+// for (let i = 0; i < names.length; i++) {
+//     let currentName = names[i].toUpperCase()
+// upperCaseNames.push(currentName)}
+// console.log(upperCaseNames);
+
+
+// // let lowerCaseNames = []
+// for (i = 0; i < names.length; i++) {
+// //     lowerCaseNames.push(names[i].toLowerCase())
+// // }
+// // console.log(lowerCaseNames);
+
+
+// let mixCaseLetters = []
+// for (i = 0; i < names.length; i++)
+// if (i % 2 === 0) {
+//     mixCaseLetters.push(names[i].toUpperCase())
+// }
+// else if (i % 2 === 1) {
+//     mixCaseLetters.push(names[i].toLowerCase())
+// }
+// console.log(mixCaseLetters);
+
+
+let diffNamesLength
+for (i = 0; i < names.length; i++)
+if (names[i].length % 2 === 1)
+diffNamesLength.push(names[i])
+console.log(diffNamesLength);
+
+// console.log("privet,poka,kak dela?".substring(6));
+
+
+
+
+
+
+
+
+
