@@ -211,19 +211,43 @@ let names = ["Adam", "Lee", "Movsar", "Kazbek", "Alibek"]
 // console.log(mixCaseLetters);
 
 
-let diffNamesLength
-for (i = 0; i < names.length; i++)
-if (names[i].length % 2 === 1)
-diffNamesLength.push(names[i])
-console.log(diffNamesLength);
+// let diffNamesLength = []
+// for (i = 0; i < names.length; i++)
+// if (names[i].length % 2 === 1)
+// diffNamesLength.push(names.length[i])
+// console.log(diffNamesLength);
 
 // console.log("privet,poka,kak dela?".substring(6));
 
+// lastUpperCase = []
+// for ( i = 0; i < names.length; i++){
+// let nameSart = names[i].substring(0,names[i].length - 1)
+// let lastLetter = names[i][names[i].length - 1]
+// console.log(nameSart + lastLetter.toLocaleUpperCase()); 
+// }
 
+// let evenInexToUpperCase = []
+// for (let i = 0; i < names.length; i++) {
+//     let someString = ""
+//     if (i % 2 === 0){
+//         for (j = 0; j <names[i].length; j++){
+//             if (j % 2 === 0){ 
+//                 someString += names[i][j].toUpperCase()
+//             } else {
+//                     someString += names[i][j]
+                
 
-
-
-
-
-
-
+//             }
+//         }
+//         evenInexToUpperCase.push(someString)
+//     } else { evenInexToUpperCase.push(names[i])
+//         }
+//     }
+let nums = [1, 2 ,0, 8, 3, 9, 11]
+let newNums = []
+for (let i = 0; i <nums.length; i++) {
+if (nums[i] % 2 === 1) {
+    newNums.push(nums[i])
+}
+}
+console.log(newNums);
