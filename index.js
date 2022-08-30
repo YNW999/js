@@ -185,7 +185,7 @@
 // let names = ["Adam", "Lee", "Movsar", "Kazbek", "Alibek"]
 // // console.log(names[names.length-1]);
 // let alibek = names[names.length-1]
-let names = ["Adam", "Lee", "Movsar", "Kazbek", "Alibek"]
+// let names = ["Adam", "Lee", "Movsar", "Kazbek", "Alibek"]
 // let upperCaseNames = []
 // for (let i = 0; i < names.length; i++) {
 //     let currentName = names[i].toUpperCase()
@@ -235,7 +235,7 @@ let names = ["Adam", "Lee", "Movsar", "Kazbek", "Alibek"]
 //                 someString += names[i][j].toUpperCase()
 //             } else {
 //                     someString += names[i][j]
-                
+
 
 //             }
 //         }
@@ -243,11 +243,82 @@ let names = ["Adam", "Lee", "Movsar", "Kazbek", "Alibek"]
 //     } else { evenInexToUpperCase.push(names[i])
 //         }
 //     }
-let nums = [1, 2 ,0, 8, 3, 9, 11]
-let newNums = []
-for (let i = 0; i <nums.length; i++) {
-if (nums[i] % 2 === 1) {
-    newNums.push(nums[i])
+// let nums = [1, 2 ,0, 8, 3, 9, 11]
+// let newNums = []
+// for (let i = 0; i <nums.length; i++) {
+// if (nums[i] % 2 === 1) {
+//     newNums.push(nums[i])
+// }
+// }
+// console.log(newNums);
+// let a = []
+// let b = []
+// let d = []
+// let other = []
+
+
+// let names = ["Ali", "Baudi", "Daud", "Khavazh", "Bislan", "Adlan", "Supyan", "Selima", "Yakub"]
+
+// for (let i = 0; i < names.length; i++) {
+//     let curName = names[i]
+//     if (curName[0] === "A") {
+//         a.push(names[i])
+//     } else if (curName[0] === "B") {
+//         b.push(names[i])
+//     } else if (curName[0] === "D") {
+//         d.push(names[i])
+//     } else {
+//         other.push(curName.toUpperCase())
+//     }
+
+
+// }
+// console.log("a ===", a);
+// console.log("b ===", b);
+// console.log("d ===", d);
+// console.log("other ===", other);
+
+// let shortsNames = []
+
+// for (let i = 0; i < names.length; i++){
+
+// let str = ""   
+// let firstLetter = names[i][0]
+// let lastLetter = names[i][names[i].length - 1]
+// if (names[i].length >= 3) {
+//     str += firstLetter + "-" + lastLetter
+//     shortsNames.push(str)
+// } 
+// }
+// console.log(shortsNames);
+
+
+// обратный цикл
+
+// for (let i = 10; i > 0; i--)
+
+// let names = ["Ali", "Baudi", "Daud", "Khavazh", "Bislan", "Adlan", "Supyan", "Selima", "Yakub"]
+// goBackWord = []
+// for (let i = names.length - 1; i >=0; i --){
+//     goBackWord.push(names[i])
+// }
+
+// console.log(goBackWord);
+
+
+let names = ["Ali", "Baudi", "Daud", "Khavazh", "Bislan", "Adlan", "Supyan", "Selima", "Yakub"]
+
+goBackName = []
+for (let i = names.length - 1; i >= 0; i--) {
+    let str = ""
+
+
+    for (let h = names[i].length - 1; h >= 0; h--) {
+        if (h === names[i].length - 1){
+            
+        }
+        
+        else
+    }
+  
 }
-}
-console.log(newNums);
